@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">petApp</string>
+    <string name="content_desc_logo">logo</string>
+
+    <string name="btn_text_iniciosesion">Ingresar</string>
+    <string name="btn_text_ingresar">Ingresar</string>
+    <string name="btn_text_registrarse">Registrarse</string>
+    <string name="btn_text_registrarse_new">Registrarse</string>
+    <string name="btn_text_comenzar">Registrarse</string>
+    <string name="btn_text_agregarMascota">+ Agregar una mascota</string>
+    <string name="btn_text_misMascotas">Mis mascotas</string>
+
+    <string name="text_registrate">Registrate</string>
+    <string name="text_pregunta">¿No tienes una cuenta?</string>
+    <string name="text_bienvenido">Bienvenido a Pet Plus</string>
+    <string name="text_olvide">Olvidé mi contraseña</string>
+    <string name="text_nombre">Nombres</string>
+    <string name="text_apellido">Apellido</string>
+    <string name="text_text_para">Para empezar, agregue una mascota</string>
+
+    <string name="text_hint_email">Email</string>
+    <string name="text_hint_contraseña">Contraseña</string>
+
+</resources>
