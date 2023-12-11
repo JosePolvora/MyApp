@@ -20,12 +20,11 @@
 
     <string name="text_registrate">Registrate</string>
     <string name="text_pregunta">¿No tienes una cuenta?</string>
-    <string name="text_bienvenido">Bienvenido a Pet Plus</string>
+    <string name="text_bienvenido">Bienvenido a Pet App</string>
     <string name="text_olvide">Olvidé mi contraseña</string>
     <string name="text_nombre">Nombres</string>
     <string name="text_apellido">Apellido</string>
-    <string name="text_raza">Raza</string>
-    <string name="text_nombre_mascota">Nombre de la mascota</string>
+    <string name="text_nombre_mascota">Nombre</string>
     <string name="text_text_para">Para empezar, agregue una mascota</string>
 
     <string name="text_fechaNac">00/00/0000</string>
@@ -36,5 +35,7 @@
     <string name="text_hint_email">Email</string>
     <string name="text_hint_contraseña">Contraseña</string>
     <string name="text_hint_genero">Genero</string>
+    <string name="text_hint_especie">Especie</string>
+    <string name="text_hint_raza">Raza</string>
 
 </resources>

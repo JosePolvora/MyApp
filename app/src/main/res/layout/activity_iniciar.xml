@@ -38,6 +38,9 @@
             android:layout_marginTop="50dp"
             android:ems="10"
             android:hint="@string/text_hint_email"
+            android:importantForAutofill="no"
+            android:textColorHint="@color/black"
+            android:textSize="20sp"
             android:inputType="textEmailAddress" />
 
         <EditText
@@ -47,6 +50,9 @@
             android:layout_marginTop="50dp"
             android:ems="10"
             android:hint="@string/text_hint_contraseña"
+            android:importantForAutofill="no"
+            android:textColorHint="@color/black"
+            android:textSize="20sp"
             android:inputType="textPassword" />
 
         <LinearLayout

@@ -33,10 +33,13 @@
             <EditText
                 android:id="@+id/nombreMascota"
                 android:layout_width="0dp"
-                android:layout_height="50dp"
+                android:layout_height="48dp"
                 android:layout_marginTop="20dp"
                 android:layout_weight="1"
                 android:hint="@string/text_nombre_mascota"
+                android:importantForAutofill="no"
+                android:textColorHint="@color/black"
+                android:textSize="20sp"
                 android:inputType="text|textPersonName" />
 
         </LinearLayout>
@@ -53,8 +56,12 @@
                 android:layout_height="48dp"
                 android:layout_marginTop="20dp"
                 android:layout_weight="1"
-                android:hint="@string/text_raza"
+                android:hint="@string/text_hint_raza"
+                android:importantForAutofill="no"
+                android:textColor="@color/black"
+                android:textSize="20sp"
                 android:inputType="text|textPersonName" />
+
         </LinearLayout>
 
 
@@ -65,22 +72,42 @@
             android:orientation="horizontal">
 
             <EditText
-
                 android:id="@+id/genero"
                 android:layout_width="0dp"
                 android:layout_height="48dp"
                 android:layout_marginTop="20dp"
                 android:layout_weight="1"
                 android:hint="@string/text_hint_genero"
+                android:importantForAutofill="no"
+                android:textColorHint="@color/black"
+                android:textSize="20sp"
                 android:inputType="text|textPersonName" />
-
-
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="300dp"
             android:layout_height="wrap_content"
-            android:layout_marginTop="100dp"
+            android:gravity="center|top"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/especie"
+                android:layout_width="0dp"
+                android:layout_height="48dp"
+                android:layout_marginTop="20dp"
+                android:layout_weight="1"
+                android:hint="@string/text_hint_especie"
+                android:textColorHint="@color/black"
+                android:textSize="20sp"
+                android:importantForAutofill="no"
+                android:inputType="text|textPersonName" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp"
             android:gravity="center"
             android:orientation="horizontal">
 
@@ -91,7 +118,7 @@
                 style="?attr/buttonBarButtonStyle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:backgroundTint="@color/grey"
+                android:backgroundTint="@color/clorRecomendado"
                 android:text="@string/btn_text_fechaNac"
                 android:textColor="@color/black"
                 android:textSize="20sp" />
@@ -104,7 +131,10 @@
                 android:ems="10"
                 android:gravity="center"
                 android:hint="@string/text_fechaNac"
+                android:importantForAutofill="no"
                 android:inputType="text"
+                android:textColorHint="@color/black"
+                android:textSize="20sp"
                 android:visibility="visible" />
 
 
@@ -112,8 +142,8 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="40dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="60dp"
             android:gravity="center"
             android:orientation="horizontal">
 
@@ -121,9 +151,9 @@
 
                 android:id="@+id/GuardarMascota"
                 style="?attr/buttonBarButtonStyle"
-                android:layout_width="130dp"
-                android:layout_height="wrap_content"
-                android:backgroundTint="@color/celeste"
+                android:layout_width="150dp"
+                android:layout_height="match_parent"
+                android:backgroundTint="@color/azul"
                 android:text="@string/btn_text_cargarMascota"
                 android:textColor="@color/black"
                 android:textSize="20sp"
@@ -134,7 +164,7 @@
                 android:id="@+id/btn_text_misMascotas"
                 style="?attr/buttonBarButtonStyle"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="match_parent"
                 android:backgroundTint="@color/celeste"
                 android:text="@string/btn_text_miMascota"
                 android:textColor="@color/black"
