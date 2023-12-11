@@ -1,8 +1,150 @@
 <?xml version="1.0" encoding="utf-8"?>
+
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
+    android:id="@+id/activityCargarMascotas"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grey"
+    android:gravity="center|top"
     android:orientation="vertical"
-    tools:context=".activity_cargarMascotas"/>
+    android:paddingTop="50dp">
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:contentDescription="@string/content_desc_logo"
+        android:src="@drawable/dogcatlogo" />
+
+
+    <LinearLayout
+        android:layout_width="370dp"
+        android:layout_height="match_parent"
+        android:layout_marginTop="30dp"
+        android:background="@color/grey"
+        android:gravity="center|top"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:gravity="center|top"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/nombreMascota"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="20dp"
+                android:layout_weight="1"
+                android:hint="@string/text_nombre_mascota"
+                android:inputType="text|textPersonName" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:gravity="center|top"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/Raza"
+                android:layout_width="0dp"
+                android:layout_height="48dp"
+                android:layout_marginTop="20dp"
+                android:layout_weight="1"
+                android:hint="@string/text_raza"
+                android:inputType="text|textPersonName" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:gravity="center|top"
+            android:orientation="horizontal">
+
+            <EditText
+
+                android:id="@+id/genero"
+                android:layout_width="0dp"
+                android:layout_height="48dp"
+                android:layout_marginTop="20dp"
+                android:layout_weight="1"
+                android:hint="@string/text_hint_genero"
+                android:inputType="text|textPersonName" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+
+            <Button
+
+                android:id="@+id/btnFechaNac"
+                style="?attr/buttonBarButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/grey"
+                android:text="@string/btn_text_fechaNac"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <EditText
+
+                android:id="@+id/fechaNac"
+                android:layout_width="150dp"
+                android:layout_height="48dp"
+                android:ems="10"
+                android:gravity="center"
+                android:hint="@string/text_fechaNac"
+                android:inputType="text"
+                android:visibility="visible" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+
+                android:id="@+id/GuardarMascota"
+                style="?attr/buttonBarButtonStyle"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/celeste"
+                android:text="@string/btn_text_cargarMascota"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:translationX="-15dp" />
+
+            <Button
+
+                android:id="@+id/btn_text_misMascotas"
+                style="?attr/buttonBarButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/celeste"
+                android:text="@string/btn_text_miMascota"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:translationX="15dp" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

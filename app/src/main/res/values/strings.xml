@@ -7,8 +7,16 @@
     <string name="btn_text_registrarse">Registrarse</string>
     <string name="btn_text_registrarse_new">Registrarse</string>
     <string name="btn_text_comenzar">Registrarse</string>
-    <string name="btn_text_agregarMascota">+ Agregar una mascota</string>
+    <string name="btn_text_agregarMascota">Agregar una mascota</string>
     <string name="btn_text_misMascotas">Mis mascotas</string>
+    <string name="btn_text_miMascota">Mis Mascotas</string>
+    <string name="btn_text_ir">1° Mascota</string>
+    <string name="btn_text_ir1">2° Mascota</string>
+    <string name="btn_text_ir2">3° Mascota</string>
+    <string name="btn_text_macho">Macho</string>
+    <string name="btn_text_hembra">Hembra</string>
+    <string name="btn_text_fechaNac">Fecha Nac</string>
+    <string name="btn_text_cargarMascota">Guardar</string>
 
     <string name="text_registrate">Registrate</string>
     <string name="text_pregunta">¿No tienes una cuenta?</string>
@@ -16,9 +24,17 @@
     <string name="text_olvide">Olvidé mi contraseña</string>
     <string name="text_nombre">Nombres</string>
     <string name="text_apellido">Apellido</string>
+    <string name="text_raza">Raza</string>
+    <string name="text_nombre_mascota">Nombre de la mascota</string>
     <string name="text_text_para">Para empezar, agregue una mascota</string>
+
+    <string name="text_fechaNac">00/00/0000</string>
+    <string name="text_nombre_mascota1">Nombre Mascota1</string>
+    <string name="text_nombre_mascota2">Nombre Mascota2</string>
+    <string name="text_nombre_mascota3">Nombre Mascota3</string>
 
     <string name="text_hint_email">Email</string>
     <string name="text_hint_contraseña">Contraseña</string>
+    <string name="text_hint_genero">Genero</string>
 
 </resources>
