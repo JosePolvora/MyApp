@@ -30,14 +30,10 @@ public class activity_cargarMascotas extends AppCompatActivity implements View.O
         fechaNac.setOnClickListener((this));
 
         btn_text_misMascotas=(Button)findViewById(R.id.btn_text_misMascotas);
-        btn_text_misMascotas.setOnClickListener(new View.OnClickListener() {
+        btn_text_misMascotas.setOnClickListener(view -> {
 
-            @Override
-            public void onClick(View view) {
-
-                Intent i = new Intent (activity_cargarMascotas.this, activityMisMascotas.class);
-                startActivity(i);
-            }
+            Intent i = new Intent (activity_cargarMascotas.this, activityMisMascotas.class);
+            startActivity(i);
         });
 
 

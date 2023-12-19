@@ -2,6 +2,7 @@
     <string name="app_name">petApp</string>
     <string name="content_desc_logo">logo</string>
 
+
     <string name="btn_text_iniciosesion">Ingresar</string>
     <string name="btn_text_ingresar">Ingresar</string>
     <string name="btn_text_registrarse">Registrarse</string>
@@ -17,25 +18,33 @@
     <string name="btn_text_hembra">Hembra</string>
     <string name="btn_text_fechaNac">Fecha Nac</string>
     <string name="btn_text_cargarMascota">Guardar</string>
+    <string name="btn_text_comer">Comer</string>
+    <string name="btn_text_beber">Beber</string>
+    <string name="btn_text_aseo">Aseo</string>
+    <string name="btn_text_vacunacion">Vacunación</string>
+    <string name="btn_text_esparcimiento">Esparcimiento</string>
 
+
+    <string name="text_mascota001">D I A N A</string>
     <string name="text_registrate">Registrate</string>
     <string name="text_pregunta">¿No tienes una cuenta?</string>
     <string name="text_bienvenido">Bienvenido a Pet App</string>
     <string name="text_olvide">Olvidé mi contraseña</string>
-    <string name="text_nombre">Nombres</string>
+    <string name="text_nombre">Nombre</string>
     <string name="text_apellido">Apellido</string>
     <string name="text_nombre_mascota">Nombre</string>
     <string name="text_text_para">Para empezar, agregue una mascota</string>
-
     <string name="text_fechaNac">00/00/0000</string>
     <string name="text_nombre_mascota1">Nombre Mascota1</string>
     <string name="text_nombre_mascota2">Nombre Mascota2</string>
     <string name="text_nombre_mascota3">Nombre Mascota3</string>
+    <string name="text_linea">---------------------------------------------</string>
 
     <string name="text_hint_email">Email</string>
     <string name="text_hint_contraseña">Contraseña</string>
     <string name="text_hint_genero">Genero</string>
     <string name="text_hint_especie">Especie</string>
     <string name="text_hint_raza">Raza</string>
+    <string name="content_desc_mascota001">mascota001</string>
 
 </resources>

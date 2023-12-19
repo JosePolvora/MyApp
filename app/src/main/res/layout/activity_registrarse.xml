@@ -38,6 +38,9 @@
             android:layout_marginTop="25dp"
             android:ems="10"
             android:hint="@string/text_nombre"
+            android:importantForAutofill="no"
+            android:textColorHint="@color/black"
+            android:textSize="20sp"
             android:inputType="text|textPersonName" />
 
         <EditText
@@ -47,6 +50,9 @@
             android:layout_marginTop="25dp"
             android:ems="10"
             android:hint="@string/text_apellido"
+            android:importantForAutofill="no"
+            android:textColorHint="@color/black"
+            android:textSize="20sp"
             android:inputType="text|textPersonName" />
 
 
@@ -57,6 +63,9 @@
             android:layout_marginTop="25dp"
             android:ems="10"
             android:hint="@string/text_hint_email"
+            android:importantForAutofill="no"
+            android:textColorHint="@color/black"
+            android:textSize="20sp"
             android:inputType="textEmailAddress" />
 
         <EditText
@@ -66,6 +75,9 @@
             android:layout_marginTop="25dp"
             android:ems="10"
             android:hint="@string/text_hint_contraseña"
+            android:importantForAutofill="no"
+            android:textColorHint="@color/black"
+            android:textSize="20sp"
             android:inputType="textPassword" />
 
         <Button
